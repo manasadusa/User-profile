@@ -1,0 +1,68 @@
+.write{
+   
+    margin: 0% 5%;
+    
+    width: 90%;
+    height: 450px;
+    
+    border-radius:5px ;
+    position: relative;
+    background-color: #f8f2f2de;
+    .text{
+       position: absolute; 
+       top:25%;
+       left:5%;
+       font-size: 300%;
+       font-family: 'Galada', cursive;
+    }
+    .form{
+        margin-top: 5%;
+        margin-left: 50%;
+        display: inline-flex;
+        flex-direction: column;
+        align-items: center;
+    .input{
+        font-size: 80%;
+        display: inline-flex;
+        flex-direction: row;
+        margin-top: 4%;
+        border: none;
+       
+        label{
+            text-transform: uppercase;
+            padding: 1%;
+            margin-right: 4%;
+            font-weight: 500;
+            
+        }
+        input{
+            margin-left: 5%;
+        }
+       
+    }
+.desc{
+   textarea{
+       margin-left: 0;
+   }
+   label{
+       margin-left: 13%;
+   }
+}
+    button{
+        margin-left: 20%;
+        padding: 5% 1%;
+        width:150px;
+        background-color: #0bb7c4;
+        border: none;
+        border: 1px solid #078791;
+        border-radius: 15px;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        &:hover{
+            background-color: #078791;
+            transition: background-color 0.2s;
+            cursor: pointer;
+        }
+    }
+}
+}

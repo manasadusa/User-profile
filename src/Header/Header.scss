@@ -1,0 +1,36 @@
+
+    .header{
+        
+    img{
+        margin-top: 0.1%;
+        width: 4%;
+        height:4%;
+        margin-left: 5%;
+    }
+   
+
+
+.menu{
+    top:0.6%;
+    right:5%;
+    position: absolute;
+    
+   
+    li{
+        display: inline-flex;
+        padding: 4% 2%;
+        border-bottom:2px solid transparent;
+        text-transform: uppercase;
+        color: #000;
+        font-weight: 300;
+        font-size: 70%;
+        
+   &:hover{
+    border-bottom:2px solid #0bb7c4;
+   }
+       
+      
+    }
+   
+}
+    }
