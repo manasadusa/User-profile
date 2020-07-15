@@ -1,0 +1,13 @@
+.main-div{
+    width:auto;
+    height: 150vh;
+    display: flex;
+    flex-direction: column;
+    background-image: linear-gradient(rgba(73, 71, 71, 0.192),rgba(73, 71, 71, 0.192)), url('../image/background.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat:no-repeat ;
+    color: #fff;
+    font-size: 22px;
+    
+}

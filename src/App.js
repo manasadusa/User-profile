@@ -1,10 +1,10 @@
 import React from 'react'
-import Page from './Page/Page'
+import UserProfile from './UserProfile/UserProfile'
 import './App.scss'
 export default function App() {
     return (
-      
-          <Page/>  
+      <UserProfile/>
+       
         
     )
 }
